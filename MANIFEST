@@ -6,3 +6,4 @@ Makefile.PL			How to build it
 README				Description of package 
 t/basic.t			A Basic test
 META.yml                                 Module meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

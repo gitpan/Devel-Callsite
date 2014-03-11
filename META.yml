@@ -8,7 +8,7 @@ configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921'
-license: unknown
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -17,5 +17,8 @@ no_index:
   directory:
     - t
     - inc
-requires: {}
-version: 0.07
+requires:
+  Devel::PPPort: 3.00
+  Test::More: 0
+resources: {}
+version: 0.08
